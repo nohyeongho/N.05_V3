@@ -1,4 +1,4 @@
-﻿<html lang="ko">
+<html lang="ko">
 
 <head>
     <meta charset="utf-8">
@@ -5995,7 +5995,7 @@ bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md z-30">
                         <div class="flex items-center justify-between mb-2">
                             <div class="flex items-center gap-2">
                                 <span class="material-symbols-outlined text-purple-600">query_stats</span>
-                                <h3 class="font-bold text-slate-900 dark:text-white text-[15px]">LGSC/Argus ?곸꽭 ?뺣낫</h3>
+                                <h3 class="font-bold text-slate-900 dark:text-white text-[15px]">LGSC 상세 정보</h3>
                             </div>
                             <button class="toggle-detail-btn flex-shrink-0 flex items-center justify-center w-5 h-5 rounded-full bg-[#5A7184] text-white hover:bg-[#4A5D6D] transition-all" data-section="lgsc-info">
                                 <span class="material-symbols-outlined text-[14px] font-bold">remove</span>
@@ -6193,77 +6193,103 @@ bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md z-30">
                         <div class="flex items-center justify-between mb-2 relative z-10">
                             <div class="flex items-center gap-2">
                                 <span class="material-symbols-outlined text-purple-600">query_stats</span>
-                                <h3 class="font-bold text-slate-900 dark:text-white text-[15px]">LGSC/Argus ?곸꽭 ?뺣낫</h3>
+                                <h3 class="font-bold text-slate-900 dark:text-white text-[15px]">LGSC 상세 정보</h3>
                             </div>
                             <button class="toggle-detail-btn flex-shrink-0 flex items-center justify-center w-5 h-5 rounded-full bg-[#5A7184] text-white hover:bg-[#4A5D6D] transition-all" data-section="lgsc-info">
                                 <span class="material-symbols-outlined text-[14px] font-bold">remove</span>
                             </button>
                         </div>
                         
-                        <div class="space-y-5 relative z-10">
-                            <!-- 1. LGSC 吏꾨떒?대젰 -->
-                            <div class="space-y-2">
-                                <h4 class="font-bold text-slate-900 dark:text-white text-[14px] flex items-center gap-1.5">
-                                    <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                                    1. LGSC 吏꾨떒?대젰
-                                </h4>
-                                <div class="flex items-center gap-2 mb-2">
-                                    <span class="text-slate-700 dark:text-slate-300 font-medium text-[13px]">吏꾨떒?대젰???덉뒿?덈떎.</span>
-                                    <span class="px-1.5 py-0.5 bg-slate-100 dark:bg-slate-800 text-slate-500 text-[10px] rounded border border-slate-200 dark:border-slate-700 font-bold">SHOW</span>
+                            <div class="space-y-5 relative z-10">
+                                <!-- 1. 진단 이력 -->
+                                <div class="space-y-2">
+                                    <h4 class="font-bold text-slate-900 dark:text-white text-[14px] flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
+                                        1. 진단 이력
+                                    </h4>
+                                    <div class="flex items-center gap-2 mb-1 pl-1">
+                                        <span class="text-slate-700 dark:text-slate-300 font-bold text-[13px]">• 진단 이력이 있습니다. (00건)</span>
+                                    </div>
+                                    <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 shadow-inner">
+                                        <table class="w-full text-center text-[11px] border-collapse min-w-[400px]">
+                                            <thead class="bg-slate-100/80 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold">
+                                                <tr>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">접수번호</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">진단일시</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">이력 보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-slate-700 dark:text-slate-300 divide-y divide-slate-100 dark:divide-slate-800 font-medium">
+                                                <tr>
+                                                    <td class="px-2 py-2 font-mono">P00000000</td>
+                                                    <td class="px-2 py-2 text-[10px]">2026.03.19 12:10</td>
+                                                    <td class="px-2 py-2">
+                                                        <button class="px-3 py-0.5 bg-slate-100 dark:bg-slate-800 text-slate-500 text-[9px] rounded-full border border-slate-200 dark:border-slate-700 font-bold">SHOW</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                                <p class="text-slate-900 dark:text-white font-bold text-[13px] mb-2 px-1 border-l-2 border-slate-200 dark:border-slate-700">LGSC ?댁옣??FOTA ?대젰???덉뒿?덈떎</p>
-                                <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 shadow-inner">
-                                    <table class="w-full text-center text-[11px] border-collapse min-w-[400px]">
-                                        <thead class="bg-slate-100/80 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold">
-                                            <tr>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">?묒닔踰덊샇</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">吏꾨떒?쇱떆</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Part No</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Checksum(??</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Check sum(??</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="text-slate-700 dark:text-slate-300 divide-y divide-slate-100 dark:divide-slate-800 font-medium">
-                                            <tr>
-                                                <td class="px-2 py-2 font-mono">P00000000</td>
-                                                <td class="px-2 py-2 text-[10px]">2026.03.19 12:10</td>
-                                                <td class="px-2 py-2 text-slate-900 dark:text-white font-mono">SAA0000000</td>
-                                                <td class="px-2 py-2 font-mono text-slate-500">0x00001212</td>
-                                                <td class="px-2 py-2 font-mono font-bold text-blue-600 dark:text-blue-400">0x00001221</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
 
-                            <!-- 2. 理쒓렐 S/W 踰꾩쟾 ?뺣낫(LGSC) -->
-                            <div class="space-y-2">
-                                <h4 class="font-bold text-slate-900 dark:text-white text-[14px] flex items-center gap-1.5">
-                                    <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                                    2. 理쒓렐 S/W 踰꾩쟾 ?뺣낫(LGSC)
-                                </h4>
-                                <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 shadow-inner">
-                                    <table class="w-full text-center text-[11px] border-collapse min-w-[400px]">
-                                        <thead class="bg-slate-100/80 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold">
-                                            <tr>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">?묒닔踰덊샇</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">吏꾨떒?쇱떆</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Part No</th>
-                                                <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Check sum</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody class="text-slate-700 dark:text-slate-300 divide-y divide-slate-100 dark:divide-slate-800 font-medium">
-                                            <tr>
-                                                <td class="px-2 py-2 font-mono">P00000000</td>
-                                                <td class="px-2 py-2 text-[10px]">2026.03.19 12:10</td>
-                                                <td class="px-2 py-2 text-slate-900 dark:text-white font-mono">SAA0000000</td>
-                                                <td class="px-2 py-2 font-mono font-bold text-blue-600 dark:text-blue-400">0x00001221</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                <!-- 2. LGSC 내장형 FOTA 이력정보 -->
+                                <div class="space-y-2 mt-4">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <p class="text-slate-900 dark:text-white font-bold text-[13px] px-1 border-l-2 border-slate-200 dark:border-slate-700">2.LGSC 내장형 FOTA 이력이 있습니다</p>
+                                        <span class="px-1.5 py-0.5 bg-slate-100 dark:bg-slate-800 text-slate-500 text-[10px] rounded border border-slate-200 dark:border-slate-700 font-bold">SHOW</span>
+                                    </div>
+                                    <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 shadow-inner">
+                                        <table class="w-full text-center text-[11px] border-collapse min-w-[400px]">
+                                            <thead class="bg-slate-100/80 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold">
+                                                <tr>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">접수번호</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">진단일시</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Part No</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Checksum(전)</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Check sum(후)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-slate-700 dark:text-slate-300 divide-y divide-slate-100 dark:divide-slate-800 font-medium">
+                                                <tr>
+                                                    <td class="px-2 py-2 font-mono">P00000000</td>
+                                                    <td class="px-2 py-2 text-[10px]">2026.03.19 12:10</td>
+                                                    <td class="px-2 py-2 text-slate-900 dark:text-white font-mono">SAA0000000</td>
+                                                    <td class="px-2 py-2 font-mono text-slate-500">0x00001212</td>
+                                                    <td class="px-2 py-2 font-mono font-bold text-blue-600 dark:text-blue-400">0x00001221</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- 3. 최근 S/W 버전 정보(LGSC) -->
+                                <div class="space-y-2 mt-4">
+                                    <h4 class="font-bold text-slate-900 dark:text-white text-[14px] flex items-center gap-1.5">
+                                        <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
+                                        3. 최근 S/W 버전 정보(LGSC)
+                                    </h4>
+                                    <div class="overflow-x-auto rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 shadow-inner">
+                                        <table class="w-full text-center text-[11px] border-collapse min-w-[400px]">
+                                            <thead class="bg-slate-100/80 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-bold">
+                                                <tr>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">접수번호</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">진단일시</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Part No</th>
+                                                    <th class="px-2 py-2 border-b border-slate-200 dark:border-slate-700 text-slate-500">Check sum</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-slate-700 dark:text-slate-300 divide-y divide-slate-100 dark:divide-slate-800 font-medium">
+                                                <tr>
+                                                    <td class="px-2 py-2 font-mono">P00000000</td>
+                                                    <td class="px-2 py-2 text-[10px]">2026.03.19 12:10</td>
+                                                    <td class="px-2 py-2 text-slate-900 dark:text-white font-mono">SAA0000000</td>
+                                                    <td class="px-2 py-2 font-mono font-bold text-blue-600 dark:text-blue-400">0x00001221</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                     </div>`
 
             };
